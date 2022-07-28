@@ -19,3 +19,14 @@ list-style: none;
 a, a:hover {
 text-decoration: none;
 }
+
+/* 
+.banner-carousel .carousel-item.first{
+   background: url(../images/cover/cover-1.png) no-repeat center center cover;
+}
+.banner-carousel .carousel-item.second{
+   background: url(../images/cover/cover-2.jpg) no-repeat center center cover;
+}
+.banner-carousel .carousel-item.third{
+   background: url(../images/cover/cover-3.jpg) no-repeat center center cover;
+} */

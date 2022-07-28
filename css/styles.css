@@ -12,21 +12,15 @@ body{
 box-sizing: border-box;
 }
 
-/* ul, li {
-list-style: none;
-} */
-
 a, a:hover {
 text-decoration: none;
 }
 
-/* 
-.banner-carousel .carousel-item.first{
-   background: url(../images/cover/cover-1.png) no-repeat center center cover;
+.carousel-item{
+   min-height: 300px;
 }
-.banner-carousel .carousel-item.second{
-   background: url(../images/cover/cover-2.jpg) no-repeat center center cover;
+
+.carousel-item img{
+   object-fit: cover;
+   width: 100%;
 }
-.banner-carousel .carousel-item.third{
-   background: url(../images/cover/cover-3.jpg) no-repeat center center cover;
-} */

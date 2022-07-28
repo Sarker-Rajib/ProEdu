@@ -15,7 +15,28 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <!-- ==== === customed css==== === -->
-  <link rel="stylesheet" href="css/styles.css">
+  <style>
+   * {
+      margin: 0;
+      padding: 0;
+      outline: none;
+      box-sizing: border-box;
+   }
+
+   body{
+      font-family: 'Poppins', sans-serif;
+   }
+
+   a, a:hover {
+   text-decoration: none;
+   }
+
+   @media screen and (min-width: 900px) {
+      .faq .container{
+         max-width: 878px;
+      }
+   }
+  </style>
 </head>
 
 <body>
@@ -65,42 +86,45 @@
          <div class="container">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                <div class="carousel-inner">
-               <div class="carousel-item position-relative active">
-                  <img src="images/cover/cover-1.png" class="d-block rounded" alt="...">
+                  <div class="carousel-item position-relative active">
+                     <img src="images/cover/cover-1.png" class="d-none d-md-block rounded w-100" alt="...">
+                     <img src="images/cover/cover-1copy.png" class="d-block d-md-none rounded w-100" alt="...">
 
-                  <div class="position-absolute top-0 start-0 h-100 w-100 d-flex align-items-center justify-content-center bg-dark bg-opacity-50">
-                     <div class="text-center">
-                        <h1 class="text-white">Get Started Digital <br> Learning</h1>
-                        <p class="text-white">It is a long established fact that a reader will be distracted by the readable <br>
-                           content of a page when looking at its layout.</p>
-                        <a href="#" class="btn btn-info text-white px-4">Get Started</a>
+                     <div class="position-absolute top-0 start-0 h-100 w-100 d-flex align-items-center justify-content-center bg-dark bg-opacity-50">
+                        <div class="text-center">
+                           <h1 class="text-white">Get Started Digital <br> Learning</h1>
+                           <p class="text-white">It is a long established fact that a reader will be distracted by the readable <br>
+                              content of a page when looking at its layout.</p>
+                           <a href="#" class="btn btn-info text-white px-4">Get Started</a>
+                        </div>
                      </div>
                   </div>
-               </div>
-               <div class="carousel-item position-relative">
-                  <img src="images/cover/cover-2.jpg" class="d-block rounded" alt="...">
+                  <div class="carousel-item position-relative">
+                     <img src="images/cover/cover-2.jpg" class="d-none d-md-block rounded w-100" alt="...">
+                     <img src="images/cover/cover-2copy.png" class="d-block d-md-none rounded w-100" alt="...">
 
-                  <div class="position-absolute top-0 start-0 h-100 w-100 d-flex align-items-center justify-content-center bg-dark bg-opacity-50">
-                     <div class="text-center">
-                        <h1 class="text-white fs-1">Get Started Digital <br> Learning</h1>
-                        <p class="text-white ">It is a long established fact that a reader will be distracted by the readable <br>
-                           content of a page when looking at its layout.</p>
-                        <a href="#" class="btn btn-info text-white px-4">Get Started</a>
+                     <div class="position-absolute top-0 start-0 h-100 w-100 d-flex align-items-center justify-content-center bg-dark bg-opacity-50">
+                        <div class="text-center">
+                           <h1 class="text-white fs-1">Get Started Digital <br> Learning</h1>
+                           <p class="text-white ">It is a long established fact that a reader will be distracted by the readable <br>
+                              content of a page when looking at its layout.</p>
+                           <a href="#" class="btn btn-info text-white px-4">Get Started</a>
+                        </div>
                      </div>
                   </div>
-               </div>
-               <div class="carousel-item position-relative">
-                  <img src="images/cover/cover-3.jpg" class="d-block rounded" alt="...">
+                  <div class="carousel-item position-relative">
+                     <img src="images/cover/cover-3.jpg" class="d-none d-md-block rounded w-100" alt="...">
+                     <img src="images/cover/cover-3copy.png" class="d-block d-md-none rounded w-100" alt="...">
 
-                  <div class="position-absolute top-0 start-0 h-100 w-100 d-flex align-items-center justify-content-center bg-dark bg-opacity-50">
-                     <div class="text-center">
-                        <h1 class="text-white fs-1">Get Started Digital <br> Learning</h1>
-                        <p class="text-white">It is a long established fact that a reader will be distracted by the readable <br>
-                           content of a page when looking at its layout.</p>
-                        <a href="#" class="btn btn-info text-white px-4">Get Started</a>
+                     <div class="position-absolute top-0 start-0 h-100 w-100 d-flex align-items-center justify-content-center bg-dark bg-opacity-50">
+                        <div class="text-center">
+                           <h1 class="text-white fs-1">Get Started Digital <br> Learning</h1>
+                           <p class="text-white">It is a long established fact that a reader will be distracted by the readable <br>
+                              content of a page when looking at its layout.</p>
+                           <a href="#" class="btn btn-info text-white px-4">Get Started</a>
+                        </div>
                      </div>
                   </div>
-               </div>
                </div>
                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -202,8 +226,8 @@
 
             <div class="text-center pt-4 pt-md-5">
                <a href="#" class="btn btn-info text-white">
-                  <span class="d-none d-xl-block">See More Courses</span>
-                  <span class="d-block d-xl-none">View All</span>
+                  <span class="d-none d-xl-block px-2">See More Courses</span>
+                  <span class="d-block d-xl-none px-4">View All</span>
                </a>
             </div>
          </div>
@@ -242,7 +266,7 @@
                         </div>
                      </div>
 
-                     <a href="#" class="btn btn-info text-white">Read More</a>
+                     <a href="#" class="btn btn-info text-white px-4">Read More</a>
                   </div>
                </div>
             </div>
@@ -363,7 +387,7 @@
             </div>
 
             <div class="text-center pt-4 pt-md-5">
-               <a href="#" class="btn btn-info text-white">
+               <a href="#" class="btn btn-info text-white px-4">
                   View All
                </a>
             </div>

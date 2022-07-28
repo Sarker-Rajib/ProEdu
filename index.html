@@ -21,36 +21,72 @@
 <body>
    <!-- header starts from here -->
    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-xl navbar-light">
          <div class="container">
-           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-             <span class="navbar-toggler-icon"></span>
-           </button>
-           <div class="collapse navbar-collapse align-items-center" id="navbarTogglerDemo01">
-             <a class="navbar-brand" href="#"><img src="images/web-logo.PNG" alt=""></a>
-               <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
+            <a class="navbar-brand" href="#"><img src="images/web-logo.PNG" alt=""></a>
+            
+            <div class="d-flex">
+               <a href="#" class="btn btn-success d-none d-md-block d-xl-none me-3">Register</a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+               </button>
+            </div>
+            <div class="collapse navbar-collapse align-items-center" id="navbarTogglerDemo01">
+
+               <ul class="navbar-nav m-auto mb-2 mb-xl-0">
+                  <li class="nav-item me-0 me-xl-5">
                      <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item me-0 me-xl-5">
                      <a class="nav-link" href="#">Courses</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item me-0 me-xl-5">
                      <a class="nav-link" href="#">Deals</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item me-0 me-xl-5">
                      <a class="nav-link" href="#">About</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item me-0 me-xl-5">
                      <a class="nav-link" href="#">Register</a>
                   </li>
                </ul>
+
+               <a href="#" class="btn btn-info bg-white text-info d-none d-xl-block">Register</a>
            </div>
          </div>
        </nav>
    </header>
    <!-- header ended here -->
 
+   <!-- main contents -->
+   <main>
+      <!-- slider carousel stated -->
+      <section class="banner-carousel"><div class="container">
+         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item overflow-hidden active">
+                <img src="images/cover/cover-1.png" class="d-block rounded w-100" alt="...">
+              </div>
+              <div class="carousel-item overflow-hidden">
+                <img src="images/cover/cover-2.jpg" class="d-block rounded w-100" alt="...">
+              </div>
+              <div class="carousel-item overflow-hidden">
+                <img src="images/cover/cover-3.jpg" class="d-block rounded w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </div>
+      </section>
+      <!-- slider carousel ended -->
+   </main>
 
 
 
